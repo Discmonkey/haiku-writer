@@ -1,0 +1,5 @@
+nltk==3.3
+tensorflow==1.4
+tensorflow-gpu==1.4
+requests
+flask

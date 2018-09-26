@@ -50,8 +50,8 @@ def cache_wrapper(cache_key):
 
     return actual_wrapper
 
-
-@cache_wrapper("/home/mgrinchenko/BiometricsHg/sandbox/mgrinchenko/haiku-writer/cache/words")
+# uncomment to cache this stuff
+#@cache_wrapper("/home/mgrinchenko/BiometricsHg/sandbox/mgrinchenko/haiku-writer/cache/words")
 def pull_most_common_words():
     common_words = requests.get("https://raw.githubusercontent.com/first20hours/google-10000-english/master/20k.txt")
 
